@@ -10,6 +10,7 @@ setup.py
 ../../build/task_1/task_1.egg-info/zip-safe
 config/mrs_hudson.rviz
 launch/mrs_hudson_world.launch.py
+models/mrs_hudson.urdf
 resource/task_1
 task_1/96.py
 task_1/__init__.py
