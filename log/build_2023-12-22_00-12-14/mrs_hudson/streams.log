@@ -1,0 +1,24 @@
+[1.684s] Invoking command in '/home/niranjan/erc_ws/src/mrs_hudson': PYTHONPATH=/home/niranjan/erc_ws/build/mrs_hudson/prefix_override:/home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/niranjan/erc_ws/build/mrs_hudson/build install --record /home/niranjan/erc_ws/build/mrs_hudson/install.log --single-version-externally-managed
+[1.895s] running egg_info
+[1.896s] writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+[1.896s] writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+[1.896s] writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+[1.896s] writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+[1.896s] writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+[1.897s] reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.898s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.898s] running build
+[1.898s] running build_py
+[1.898s] running install
+[1.899s] running install_lib
+[1.900s] running install_data
+[1.900s] copying models/mrs_hudson.urdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/models
+[1.900s] copying worlds/mrs_hudson.sdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.900s] running install_egg_info
+[1.902s] removing '/home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info' (and everything under it)
+[1.902s] Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+[1.903s] running install_scripts
+[1.919s] Installing mrs_hudson_teleop script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+[1.919s] Installing vel_pub script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+[1.920s] writing list of installed files to '/home/niranjan/erc_ws/build/mrs_hudson/install.log'
+[2.102s] Invoked command in '/home/niranjan/erc_ws/src/mrs_hudson' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/mrs_hudson/prefix_override:/home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/niranjan/erc_ws/build/mrs_hudson/build install --record /home/niranjan/erc_ws/build/mrs_hudson/install.log --single-version-externally-managed

@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/mrs_hudson/mrs_hudson.egg-info
+writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/niranjan/erc_ws/build/mrs_hudson/build
+creating /home/niranjan/erc_ws/build/mrs_hudson/build/lib
+creating /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/__init__.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/vel_pub.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/mrs_hudson_teleop.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+running install
+running install_lib
+creating /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/__init__.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/vel_pub.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/mrs_hudson_teleop.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/vel_pub.py to vel_pub.cpython-310.pyc
+byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/mrs_hudson_teleop.py to mrs_hudson_teleop.cpython-310.pyc
+running install_data
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+copying resource/mrs_hudson -> /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+copying package.xml -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying launch/mrs_hudson_empty_world.launch.py -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying launch/mrs_hudson_gazebo_rviz.launch.py -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/models
+copying models/mrs_hudson.urdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/models
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/config
+copying config/mrs_hudson.rviz -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/config
+creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/worlds
+copying worlds/mrs_hudson.sdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/worlds
+running install_egg_info
+Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mrs_hudson_teleop script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+Installing vel_pub script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+writing list of installed files to '/home/niranjan/erc_ws/build/mrs_hudson/install.log'

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/sherlock/sherlock.egg-info/PKG-INFO
+writing dependency_links to ../../build/sherlock/sherlock.egg-info/dependency_links.txt
+writing entry points to ../../build/sherlock/sherlock.egg-info/entry_points.txt
+writing requirements to ../../build/sherlock/sherlock.egg-info/requires.txt
+writing top-level names to ../../build/sherlock/sherlock.egg-info/top_level.txt
+reading manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+writing manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/niranjan/erc_ws/install/sherlock/share/sherlock
+running install_egg_info
+removing '/home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages/sherlock-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sherlock/sherlock.egg-info to /home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages/sherlock-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sherlock_launch script to /home/niranjan/erc_ws/install/sherlock/lib/sherlock
+writing list of installed files to '/home/niranjan/erc_ws/build/sherlock/install.log'

@@ -1,0 +1,31 @@
+[1.849s] Invoking command in '/home/niranjan/erc_ws/src/task_1': PYTHONPATH=/home/niranjan/erc_ws/build/task_1/prefix_override:/home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/niranjan/erc_ws/build/task_1/build install --record /home/niranjan/erc_ws/build/task_1/install.log --single-version-externally-managed
+[2.051s] running egg_info
+[2.051s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[2.051s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[2.051s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[2.051s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[2.052s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[2.053s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[2.054s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[2.054s] running build
+[2.054s] running build_py
+[2.054s] copying task_1/96.py -> /home/niranjan/erc_ws/build/task_1/build/lib/task_1
+[2.054s] running install
+[2.054s] running install_lib
+[2.055s] copying /home/niranjan/erc_ws/build/task_1/build/lib/task_1/96.py -> /home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages/task_1
+[2.055s] byte-compiling /home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages/task_1/96.py to 96.cpython-310.pyc
+[2.055s] running install_data
+[2.056s] copying package.xml -> /home/niranjan/erc_ws/install/task_1/share/task_1
+[2.056s] creating /home/niranjan/erc_ws/install/task_1/share/task_1/launch
+[2.056s] copying launch/mrs_hudson_world.launch.py -> /home/niranjan/erc_ws/install/task_1/share/task_1/launch
+[2.056s] creating /home/niranjan/erc_ws/install/task_1/share/task_1/config
+[2.056s] copying config/mrs_hudson.rviz -> /home/niranjan/erc_ws/install/task_1/share/task_1/config
+[2.056s] creating /home/niranjan/erc_ws/install/task_1/share/task_1/worlds
+[2.057s] copying worlds/mrs_hudson_arena.sdf -> /home/niranjan/erc_ws/install/task_1/share/task_1/worlds
+[2.057s] running install_egg_info
+[2.058s] removing '/home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.058s] Copying ../../build/task_1/task_1.egg-info to /home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+[2.059s] running install_scripts
+[2.076s] Installing 96 script to /home/niranjan/erc_ws/install/task_1/lib/task_1
+[2.077s] writing list of installed files to '/home/niranjan/erc_ws/build/task_1/install.log'
+[2.197s] Invoked command in '/home/niranjan/erc_ws/src/task_1' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/task_1/prefix_override:/home/niranjan/erc_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/niranjan/erc_ws/build/task_1/build install --record /home/niranjan/erc_ws/build/task_1/install.log --single-version-externally-managed

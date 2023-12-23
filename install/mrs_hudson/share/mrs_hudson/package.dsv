@@ -1,0 +1,6 @@
+source;share/mrs_hudson/hook/pythonpath.ps1
+source;share/mrs_hudson/hook/pythonpath.dsv
+source;share/mrs_hudson/hook/pythonpath.sh
+source;share/mrs_hudson/hook/ament_prefix_path.ps1
+source;share/mrs_hudson/hook/ament_prefix_path.dsv
+source;share/mrs_hudson/hook/ament_prefix_path.sh

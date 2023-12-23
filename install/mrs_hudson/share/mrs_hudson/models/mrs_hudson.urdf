@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mrs_hudson">
+  <link name="world"/>
+  <joint name="fixed" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 0.15487131491131"
+        rpy="0 0 0" />
+      <mass
+        value="3.6423410343121" />
+      <inertia
+        ixx="0.0185811851538252"
+        ixy="7.57952268850217E-06"
+        ixz="-4.01112281502012E-05"
+        iyy="0.018703374094642"
+        iyz="3.4509222598916E-09"
+        izz="0.0172725195870509" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/base_link.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_wheel">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00727826709042055" />
+      <inertia
+        ixx="2.80246683878592E-06"
+        ixy="-2.57707915048983E-10"
+        ixz="-4.50883143298705E-21"
+        iyy="2.8010936780627E-06"
+        iyz="-1.1335430564382E-19"
+        izz="4.95155146638645E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/left_wheel.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/left_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel" />
+    <origin
+      xyz="0 0.0591 0.02675"
+      rpy="1.5708 0 -3.1416" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="right_wheel">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00727826709042085" />
+      <inertia
+        ixx="2.80246683878609E-06"
+        ixy="2.57707915045793E-10"
+        ixz="-8.11251891134899E-22"
+        iyy="2.80109367806286E-06"
+        iyz="6.68884025356048E-21"
+        izz="4.95155146638674E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/right_wheel.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/niranjan/erc_ws/src/mrs_hudson/meshes/right_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_joint"
+    type="continuous">
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel" />
+    <origin
+      xyz="0 -0.0591 0.02675"
+      rpy="-1.5708 0 3.1416" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+      <plugin
+        filename="libignition-gazebo-diff-drive-system.so"
+        name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>0.1182</wheel_separation>
+        <wheel_radius>0.04</wheel_radius>
+        <odom_publish_frequency>1</odom_publish_frequency>
+        <topic>cmd_vel</topic>
+      </plugin>
+</robot>

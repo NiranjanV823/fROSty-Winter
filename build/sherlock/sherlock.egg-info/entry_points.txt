@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_1 = sherlock.sherlock_node_1:main
+sherlock_launch = sherlock.sherlock_launch:main
+

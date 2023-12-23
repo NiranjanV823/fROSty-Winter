@@ -1,0 +1,22 @@
+[1.825s] Invoking command in '/home/niranjan/erc_ws/src/week0_tutorials': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed
+[2.028s] running egg_info
+[2.028s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[2.029s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[2.029s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[2.029s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[2.030s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[2.031s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[2.031s] running build
+[2.031s] running build_py
+[2.031s] running install
+[2.032s] running install_lib
+[2.033s] running install_data
+[2.033s] running install_egg_info
+[2.034s] removing '/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[2.035s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[2.036s] running install_scripts
+[2.052s] Installing publisher script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[2.052s] Installing subscriber script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[2.053s] writing list of installed files to '/home/niranjan/erc_ws/build/week0_tutorials/install.log'
+[2.124s] Invoked command in '/home/niranjan/erc_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+[0.935s] Invoking command in '/home/niranjan/erc_ws/src/sherlock': PYTHONPATH=/home/niranjan/erc_ws/build/sherlock/prefix_override:/home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sherlock build --build-base /home/niranjan/erc_ws/build/sherlock/build install --record /home/niranjan/erc_ws/build/sherlock/install.log --single-version-externally-managed
+[1.127s] running egg_info
+[1.127s] writing ../../build/sherlock/sherlock.egg-info/PKG-INFO
+[1.127s] writing dependency_links to ../../build/sherlock/sherlock.egg-info/dependency_links.txt
+[1.127s] writing entry points to ../../build/sherlock/sherlock.egg-info/entry_points.txt
+[1.127s] writing requirements to ../../build/sherlock/sherlock.egg-info/requires.txt
+[1.128s] writing top-level names to ../../build/sherlock/sherlock.egg-info/top_level.txt
+[1.128s] reading manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+[1.129s] running build
+[1.129s] running build_py
+[1.129s] running install
+[1.129s] running install_lib
+[1.130s] running install_data
+[1.131s] creating /home/niranjan/erc_ws/install/sherlock/share/sherlock/launch
+[1.131s] copying launch/sherlock_launch.py -> /home/niranjan/erc_ws/install/sherlock/share/sherlock/launch
+[1.131s] running install_egg_info
+[1.132s] removing '/home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages/sherlock-0.0.0-py3.10.egg-info' (and everything under it)
+[1.132s] Copying ../../build/sherlock/sherlock.egg-info to /home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages/sherlock-0.0.0-py3.10.egg-info
+[1.133s] running install_scripts
+[1.149s] writing list of installed files to '/home/niranjan/erc_ws/build/sherlock/install.log'
+[1.175s] Invoked command in '/home/niranjan/erc_ws/src/sherlock' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/sherlock/prefix_override:/home/niranjan/erc_ws/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sherlock build --build-base /home/niranjan/erc_ws/build/sherlock/build install --record /home/niranjan/erc_ws/build/sherlock/install.log --single-version-externally-managed

@@ -1,0 +1,20 @@
+[0.640s] Invoking command in '/home/niranjan/erc_ws/src/week0_tutorials': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed
+[0.838s] running egg_info
+[0.839s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[0.839s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[0.839s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[0.839s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[0.840s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.841s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.841s] running build
+[0.841s] running build_py
+[0.841s] running install
+[0.842s] running install_lib
+[0.842s] running install_data
+[0.843s] running install_egg_info
+[0.845s] removing '/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[0.845s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[0.846s] running install_scripts
+[0.862s] writing list of installed files to '/home/niranjan/erc_ws/build/week0_tutorials/install.log'
+[0.889s] Invoked command in '/home/niranjan/erc_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed

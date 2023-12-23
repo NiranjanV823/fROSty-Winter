@@ -1,0 +1,21 @@
+[1.187s] Invoking command in '/home/niranjan/erc_ws/src/week1_tutorials': PYTHONPATH=/home/niranjan/erc_ws/build/week1_tutorials/prefix_override:/home/niranjan/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/niranjan/erc_ws/build/week1_tutorials/build install --record /home/niranjan/erc_ws/build/week1_tutorials/install.log --single-version-externally-managed
+[1.383s] running egg_info
+[1.384s] writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+[1.384s] writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+[1.384s] writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+[1.384s] writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+[1.384s] writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+[1.386s] reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.386s] writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.386s] running build
+[1.386s] running build_py
+[1.387s] running install
+[1.387s] running install_lib
+[1.388s] running install_data
+[1.388s] creating /home/niranjan/erc_ws/install/week1_tutorials/share/week1_tutorials/config
+[1.388s] running install_egg_info
+[1.389s] removing '/home/niranjan/erc_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[1.390s] Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/niranjan/erc_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info
+[1.391s] running install_scripts
+[1.406s] writing list of installed files to '/home/niranjan/erc_ws/build/week1_tutorials/install.log'
+[1.435s] Invoked command in '/home/niranjan/erc_ws/src/week1_tutorials' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/week1_tutorials/prefix_override:/home/niranjan/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/niranjan/erc_ws/build/week1_tutorials/build install --record /home/niranjan/erc_ws/build/week1_tutorials/install.log --single-version-externally-managed

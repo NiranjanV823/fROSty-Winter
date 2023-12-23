@@ -1,0 +1,50 @@
+[1.678s] Invoking command in '/home/niranjan/erc_ws/src/mrs_hudson': PYTHONPATH=/home/niranjan/erc_ws/build/mrs_hudson/prefix_override:/home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/niranjan/erc_ws/build/mrs_hudson/build install --record /home/niranjan/erc_ws/build/mrs_hudson/install.log --single-version-externally-managed
+[1.881s] running egg_info
+[1.882s] creating ../../build/mrs_hudson/mrs_hudson.egg-info
+[1.882s] writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+[1.882s] writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+[1.882s] writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+[1.882s] writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+[1.882s] writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+[1.883s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.884s] reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.884s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.884s] running build
+[1.885s] running build_py
+[1.885s] creating /home/niranjan/erc_ws/build/mrs_hudson/build
+[1.885s] creating /home/niranjan/erc_ws/build/mrs_hudson/build/lib
+[1.885s] creating /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.885s] copying mrs_hudson/__init__.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.885s] copying mrs_hudson/vel_pub.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.885s] copying mrs_hudson/mrs_hudson_teleop.py -> /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.885s] running install
+[1.886s] running install_lib
+[1.886s] creating /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.886s] copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/__init__.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.886s] copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/vel_pub.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.886s] copying /home/niranjan/erc_ws/build/mrs_hudson/build/lib/mrs_hudson/mrs_hudson_teleop.py -> /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.886s] byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/__init__.py to __init__.cpython-310.pyc
+[1.887s] byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/vel_pub.py to vel_pub.cpython-310.pyc
+[1.887s] byte-compiling /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/mrs_hudson_teleop.py to mrs_hudson_teleop.cpython-310.pyc
+[1.888s] running install_data
+[1.888s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index
+[1.888s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index
+[1.888s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+[1.889s] copying resource/mrs_hudson -> /home/niranjan/erc_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+[1.889s] copying package.xml -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson
+[1.889s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.889s] copying launch/mrs_hudson_empty_world.launch.py -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.889s] copying launch/mrs_hudson_gazebo_rviz.launch.py -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.889s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/models
+[1.889s] copying models/mrs_hudson.urdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/models
+[1.889s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/config
+[1.889s] copying config/mrs_hudson.rviz -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/config
+[1.889s] creating /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.889s] copying worlds/mrs_hudson.sdf -> /home/niranjan/erc_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.890s] running install_egg_info
+[1.891s] Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+[1.891s] running install_scripts
+[1.908s] Installing mrs_hudson_teleop script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+[1.908s] Installing vel_pub script to /home/niranjan/erc_ws/install/mrs_hudson/lib/mrs_hudson
+[1.909s] writing list of installed files to '/home/niranjan/erc_ws/build/mrs_hudson/install.log'
+[2.041s] Invoked command in '/home/niranjan/erc_ws/src/mrs_hudson' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/mrs_hudson/prefix_override:/home/niranjan/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/niranjan/erc_ws/build/mrs_hudson/build install --record /home/niranjan/erc_ws/build/mrs_hudson/install.log --single-version-externally-managed

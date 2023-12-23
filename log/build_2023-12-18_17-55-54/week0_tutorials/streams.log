@@ -1,0 +1,28 @@
+[0.542s] Invoking command in '/home/niranjan/erc_ws/src/week0_tutorials': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed
+[0.720s] running egg_info
+[0.721s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[0.721s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[0.721s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[0.721s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[0.721s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[0.723s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.723s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.723s] running build
+[0.723s] running build_py
+[0.723s] copying week0_tutorials/listener.py -> /home/niranjan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.724s] copying week0_tutorials/talker.py -> /home/niranjan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.724s] running install
+[0.724s] running install_lib
+[0.724s] copying /home/niranjan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/listener.py -> /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.724s] copying /home/niranjan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/talker.py -> /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.725s] byte-compiling /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/listener.py to listener.cpython-310.pyc
+[0.725s] byte-compiling /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py to talker.cpython-310.pyc
+[0.726s] running install_data
+[0.726s] running install_egg_info
+[0.727s] removing '/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[0.727s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[0.728s] running install_scripts
+[0.742s] Installing publisher script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.742s] Installing subscriber script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.743s] writing list of installed files to '/home/niranjan/erc_ws/build/week0_tutorials/install.log'
+[0.762s] Invoked command in '/home/niranjan/erc_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/niranjan/erc_ws/build/week0_tutorials/build install --record /home/niranjan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed

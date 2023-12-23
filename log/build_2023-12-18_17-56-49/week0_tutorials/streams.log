@@ -1,0 +1,18 @@
+[0.541s] Invoking command in '/home/niranjan/erc_ws/build/week0_tutorials': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/niranjan/erc_ws/build/week0_tutorials/build --no-deps install_data
+[0.734s] running develop
+[0.854s] running egg_info
+[0.855s] writing week0_tutorials.egg-info/PKG-INFO
+[0.855s] writing dependency_links to week0_tutorials.egg-info/dependency_links.txt
+[0.855s] writing entry points to week0_tutorials.egg-info/entry_points.txt
+[0.855s] writing requirements to week0_tutorials.egg-info/requires.txt
+[0.855s] writing top-level names to week0_tutorials.egg-info/top_level.txt
+[0.856s] reading manifest file 'week0_tutorials.egg-info/SOURCES.txt'
+[0.857s] writing manifest file 'week0_tutorials.egg-info/SOURCES.txt'
+[0.857s] running build_ext
+[0.858s] Creating /home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0-tutorials.egg-link (link to .)
+[0.858s] Installing publisher script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.858s] Installing subscriber script to /home/niranjan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.859s] 
+[0.859s] Installed /home/niranjan/erc_ws/build/week0_tutorials
+[0.859s] running install_data
+[0.878s] Invoked command in '/home/niranjan/erc_ws/build/week0_tutorials' returned '0': PYTHONPATH=/home/niranjan/erc_ws/build/week0_tutorials/prefix_override:/home/niranjan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/niranjan/erc_ws/build/week0_tutorials/build --no-deps install_data
